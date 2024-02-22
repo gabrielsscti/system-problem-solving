@@ -9,4 +9,5 @@ To maintain multiple connections at the same time, multiples threads can be used
 ### The "net" package
 Golang has a standard package called `net`. Different from `net/http`, it does not offer http support and is not as simple to create a web server, instead we will create sockets and read byte by byte, building the payload.
 
+With the server running and listening, we can send data with `nc localhost {port}`
 
